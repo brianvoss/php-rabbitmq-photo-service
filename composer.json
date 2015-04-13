@@ -1,0 +1,31 @@
+{
+    "name": "brianvoss/stuffthing",
+    "description": "A thing with stuff",
+    "keywords": [
+
+    ],
+    "homepage": "",
+    "support": {
+        "email": "",
+        "irc": "irc://irc.freenode.net/photo-service",
+        "source": "",
+        "issues": ""
+    },
+    "config": {
+    	"process-timeout": 5000
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev",
+            "dev-develop": "1.1-dev"
+        }
+    },
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zendframework": ">=2.3.2,<3.0.0",
+        "videlalvaro/php-amqplib": "2.2.*"
+    },
+    "require-dev": {
+
+    }
+}
